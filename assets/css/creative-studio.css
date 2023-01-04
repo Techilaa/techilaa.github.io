@@ -11,6 +11,62 @@
 
 * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 */
+
+/* Custom Styles */
+.topheader{
+  background-color: #0e6ffc;
+  height: 100vh;
+  display: grid;
+  place-items: center;
+}
+  .wrapper{
+  text-align:center;
+  font-size: 80px;
+  font-family: "Poppins",sans-serif;
+  box-sizing: content-box;
+  height: 100px;
+  padding: 60px 40px;
+  display: flex;
+  border-radius: 8px;
+}
+.words{
+  overflow: hidden;
+}
+.rotatortext{
+  display: block;
+  height: 100%;
+  padding-left: 10px;
+  color: #0e6ffc;
+  animation: spin_words 6s infinite;
+}
+@keyframes spin_words{
+  10%{
+      transform: translateY(-112%);
+  }
+  25%{
+      transform: translateY(-100%);
+  }
+  35%{
+      transform: translateY(-212%);
+  }
+  50%{
+      transform: translateY(-200%);
+  }
+  60%{
+      transform: translateY(-312%);
+  }
+  75%{
+      transform: translateY(-300%);
+  }
+  85%{
+      transform: translateY(-412%);
+  }
+  100%{
+      transform: translateY(-400%);
+  }
+}
+/* Custom Styles Ends */
+
 :root {
   --blue: #79A9F5;
   --indigo: #C45F90;
