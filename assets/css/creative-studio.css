@@ -13,6 +13,11 @@
 */
 
 /* Custom Styles */
+body{
+width:100%;
+overflow-x:hidden;
+}
+
 .title{
   display: none;
   text-align:center;
@@ -97,7 +102,7 @@ html {
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  z-index: 1;
+  z-index: 9999;
 }
 
 #progress-value {
