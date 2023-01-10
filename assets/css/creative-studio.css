@@ -19,26 +19,28 @@
   display: grid;
   place-items: center;
 }
-  .wrapper{
+.wrapper{
   text-align:center;
-  font-size: 110px;
+  font-size: 80px;
   font-family: "Poppins",sans-serif;
   box-sizing: content-box;
-  height: 140px;
+  height: 160px;
   padding: 60px 40px;
   display: flex;
-  border-radius: 8px;
+  border-radius: 50px;
 }
 .words{
   overflow: hidden;
 }
 .rotatortext{
   display: block;
-  height: 100%;
+  font-size: 140px;
+  height: 200px;
   padding-left: 10px;
   color: #0e6ffc;
   animation: spin_words 6s infinite;
 }
+
 @keyframes spin_words{
   10%{
       transform: translateY(-112%);
@@ -11095,7 +11097,7 @@ p {
 }
 
 .si {
-  text-align: center;
+  text-align: left;
   margin-bottom: 30px !important;
 }
 
