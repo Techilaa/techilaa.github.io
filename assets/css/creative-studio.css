@@ -96,6 +96,21 @@ html {
   color: #001a2e;
 }
 
+.mm {
+  border: none; 
+  color:rgb(63, 145, 212);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+
+.mm:hover{
+  background-color: white;
+  color: rgb(15, 69, 232);
+}
+
 /* Custom Styles Ends */
 
 :root {
