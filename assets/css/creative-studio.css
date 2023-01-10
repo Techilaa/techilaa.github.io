@@ -11096,7 +11096,8 @@ p {
   margin-bottom: 65px !important;
 }
 
-.mb-4 {
+.si {
+  text-align: left;
   margin-bottom: 30px !important;
 }
 
