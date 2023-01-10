@@ -13,6 +13,7 @@
 */
 
 /* Custom Styles */
+
 .topheader{
   background-color: #0e6ffc;
   height: 100vh;
@@ -21,21 +22,20 @@
 }
 .wrapper{
   text-align:center;
-  font-size: 80px;
+  font-size: 115px;
   font-family: "Poppins",sans-serif;
   box-sizing: content-box;
-  height: 160px;
+  height: 150px;
   padding: 60px 40px;
   display: flex;
-  border-radius: 50px;
+  border-radius: 8px;
 }
 .words{
   overflow: hidden;
 }
 .rotatortext{
   display: block;
-  font-size: 120px;
-  height: 200px;
+  height: 100%;
   padding-left: 10px;
   color: #0e6ffc;
   animation: spin_words 6s infinite;
