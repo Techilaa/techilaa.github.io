@@ -13,18 +13,19 @@
 */
 
 /* Custom Styles */
+
 .topheader{
   background-color: #0e6ffc;
   height: 100vh;
   display: grid;
   place-items: center;
 }
-  .wrapper{
+.wrapper{
   text-align:center;
-  font-size: 80px;
+  font-size: 115px;
   font-family: "Poppins",sans-serif;
   box-sizing: content-box;
-  height: 100px;
+  height: 150px;
   padding: 60px 40px;
   display: flex;
   border-radius: 8px;
@@ -37,8 +38,9 @@
   height: 100%;
   padding-left: 10px;
   color: #0e6ffc;
-  animation: spin_words 10s infinite;
+  animation: spin_words 6s infinite;
 }
+
 @keyframes spin_words{
   10%{
       transform: translateY(-112%);
@@ -94,6 +96,21 @@ html {
   place-items: center;
   font-size: 35px;
   color: #001a2e;
+}
+
+.mm {
+  border: none; 
+  color:rgb(63, 145, 212);
+  display: inline-block;
+  cursor: pointer;
+  text-decoration: none;
+  transition-duration: 0.4s;
+  font-weight: bold;
+}
+
+.mm:hover{
+  background-color: white;
+  color: rgb(15, 69, 232);
 }
 
 /* Custom Styles Ends */
