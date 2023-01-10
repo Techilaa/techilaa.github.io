@@ -21,10 +21,10 @@
 }
   .wrapper{
   text-align:center;
-  font-size: 80px;
+  font-size: 110px;
   font-family: "Poppins",sans-serif;
   box-sizing: content-box;
-  height: 100px;
+  height: 140px;
   padding: 60px 40px;
   display: flex;
   border-radius: 8px;
