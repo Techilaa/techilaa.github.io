@@ -37,7 +37,7 @@
   height: 100%;
   padding-left: 10px;
   color: #0e6ffc;
-  animation: spin_words 6s infinite;
+  animation: spin_words 10s infinite;
 }
 @keyframes spin_words{
   10%{
