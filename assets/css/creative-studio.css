@@ -13,6 +13,25 @@
 */
 
 /* Custom Styles */
+body{
+width:100%;
+overflow-x:hidden;
+}
+
+.title{
+  display: none;
+  text-align:center;
+  box-sizing: content-box;
+  height: 150px;
+  padding: 60px 40px;
+  display: flex;
+  border-radius: 8px;
+}
+
+.new-name{
+  font-size: 4rem; 
+  font-family: "Poppins",sans-serif;
+}
 
 .topheader{
   background-color: #0e6ffc;
@@ -83,7 +102,7 @@ html {
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   cursor: pointer;
-  z-index: 1;
+  z-index: 9999;
 }
 
 #progress-value {
@@ -11633,9 +11652,24 @@ p {
   height: 100%;
 }
 
-@media (max-width: 991.98px) {
+@media (max-width: 991px) {
   .contact-card .infos {
     display: none;
+  }
+  
+}
+
+@media (min-width: 1222px) {
+  .title{
+    display: none;
+  }
+}
+@media (max-width: 1222px) {
+  .wrapper{
+    display: none;
+  }
+  .title{
+    display: block;
   }
 }
 
